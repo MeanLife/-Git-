@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "常用排序算法", "常用排序算法\常用排序算法.vcxproj", "{B059823A-7C10-46B2-BE50-887AB57B28B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B059823A-7C10-46B2-BE50-887AB57B28B7}.Debug|x64.ActiveCfg = Debug|x64
+		{B059823A-7C10-46B2-BE50-887AB57B28B7}.Debug|x64.Build.0 = Debug|x64
+		{B059823A-7C10-46B2-BE50-887AB57B28B7}.Debug|x86.ActiveCfg = Debug|Win32
+		{B059823A-7C10-46B2-BE50-887AB57B28B7}.Debug|x86.Build.0 = Debug|Win32
+		{B059823A-7C10-46B2-BE50-887AB57B28B7}.Release|x64.ActiveCfg = Release|x64
+		{B059823A-7C10-46B2-BE50-887AB57B28B7}.Release|x64.Build.0 = Release|x64
+		{B059823A-7C10-46B2-BE50-887AB57B28B7}.Release|x86.ActiveCfg = Release|Win32
+		{B059823A-7C10-46B2-BE50-887AB57B28B7}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B26A2AB5-85A0-49EE-9AFE-FB141D8B31B1}
+	EndGlobalSection
+EndGlobal

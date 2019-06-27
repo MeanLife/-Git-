@@ -1,0 +1,29 @@
+template<class T>
+void ShellSort(T *array, const int len)
+{
+	int gap = len;
+	T temp;//直接插入法要使用的
+	do
+	{
+		gap = gap/3 + 1;
+		for(int i = gap; i < len; i += gap)
+		{
+			temp = array[i];
+			int j = 0;
+			for(j = i - gap; j >= 0; j-=gap)
+			{
+				if(array[j] > temp)
+				{
+					array[j+gap] = array[j];
+				}
+				else
+				{
+					break;
+				}
+			}
+			array[j+gap] = temp;
+		}
+		
+	
+	}while(gap>1);
+}
