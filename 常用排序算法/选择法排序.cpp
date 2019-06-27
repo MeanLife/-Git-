@@ -14,7 +14,7 @@
 使有序序列不断增长直到全部排序完毕。所以只会循环n-1次。
 */
 
-/*
+//测试VS修改
 template<class T>
 void SelectSort(T * array, const int len)
 {
@@ -34,31 +34,6 @@ void SelectSort(T * array, const int len)
 			temp = array[index];
 			array[index] = array[i];
 			array[i] = temp;
-		}
-	}
-}
-*/
-
-template<class T>
-void SelectSort(T *array, const int len)
-{
-	int i, j, t, k;
-	//T min_element;//记录待排序列中最小的元素
-	for (int i = 0; i < len - 1; i++)
-	{
-		k = i;//假设待排序列中的第一个当做最小的，然后在待排序列中找到最小的
-		for (int j = i + 1; j < len; j++) //从第i个元素的后面一个元素开始找剩余的序列中最小的值的下标。
-		{
-			if (array[j] < array[index_min])
-			{
-				k = j;//找到新的最小的元素了
-			}
-		}
-		if (k != i)//若无序区第一个元素不是无序区中最小元素，则进行交换
-		{
-			t = array[k];
-			array[k] = array[i];
-			array[i] = t;
 		}
 	}
 }
